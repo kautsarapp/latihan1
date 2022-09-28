@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  //inisialisasi variabel
+  float v, r, t;
+  const float phi = 3.14; //const untuk deklarasi nilai tetap
+
+  cout<<"Program Menghitung Volume Tabung\n";
+  cout<<"Masukan jari-jari = ";
+  cin>>r;
+  cout<<"Masukan tinggi = ";
+  cin>>t;
+
+  //proses menghitung volume tabung
+  v = phi * r * r * t;
+
+  //menampilkan hasil
+  cout<<"Volume tabung adalah " << v << endl;
+
+  return 0;
+ 
+}
