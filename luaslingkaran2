@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  //inisialisasi variabel
+  float l, r;
+  const float phi = 3.14; //const untuk deklarasi nilai tetap
+
+  //nilai r
+  r = 5;
+
+  //proses menghitung luas lingkaran
+  l = phi * r * r;
+  
+  //menampilkan hasil
+  cout<<"Luas lingkaran adalah "<< l << endl;
+
+  return 0;
+  
+}
